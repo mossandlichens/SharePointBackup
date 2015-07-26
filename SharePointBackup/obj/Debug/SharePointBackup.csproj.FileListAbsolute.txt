@@ -1,0 +1,14 @@
+C:\Projects\GitHub\SharePointBackup\SharePointBackup\bin\Debug\SharePointBackup.exe.config
+C:\Projects\GitHub\SharePointBackup\SharePointBackup\bin\Debug\SharePointBackup.exe
+C:\Projects\GitHub\SharePointBackup\SharePointBackup\bin\Debug\SharePointBackup.pdb
+C:\Projects\GitHub\SharePointBackup\SharePointBackup\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Projects\GitHub\SharePointBackup\SharePointBackup\bin\Debug\FluentCommandLineParser.dll
+C:\Projects\GitHub\SharePointBackup\SharePointBackup\bin\Debug\FluentCommandLineParser.pdb
+C:\Projects\GitHub\SharePointBackup\SharePointBackup\bin\Debug\FluentCommandLineParser.xml
+C:\Projects\GitHub\SharePointBackup\SharePointBackup\obj\Debug\SharePointBackup.exe
+C:\Projects\GitHub\SharePointBackup\SharePointBackup\obj\Debug\SharePointBackup.pdb
+C:\Projects\GitHub\SharePointBackup\SharePointBackup\bin\Debug\ClosedXML.dll
+C:\Projects\GitHub\SharePointBackup\SharePointBackup\bin\Debug\ClosedXML.xml
+C:\Projects\githubrepos\SharePointBackup\SharePointBackup\bin\Debug\SharePointBackup.exe.config
+C:\Projects\githubrepos\SharePointBackup\SharePointBackup\obj\Debug\SharePointBackup.exe
+C:\Projects\githubrepos\SharePointBackup\SharePointBackup\obj\Debug\SharePointBackup.pdb
