@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("SharePointBackup")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("The Boston Consulting Group")]
+[assembly: AssemblyCompany("Moss and Lichens")]
 [assembly: AssemblyProduct("SharePointBackup")]
-[assembly: AssemblyCopyright("Copyright © The Boston Consulting Group 2015")]
+[assembly: AssemblyCopyright("Copyright © Moss and Lichens 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

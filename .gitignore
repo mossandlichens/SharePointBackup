@@ -3,3 +3,8 @@
 ################################################################################
 
 /SharePointBackup/bin/Debug
+/SharePointBackup/obj
+/SharePointBackup/obj
+/SharePointBackup/obj
+/SharePointBackup/obj/Debug/CoreCompileInputs.cache
+/SharePointBackup/obj/Release/CoreCompileInputs.cache
