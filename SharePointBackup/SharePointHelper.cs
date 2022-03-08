@@ -1,8 +1,9 @@
 ﻿namespace SharePointBackup
 {
+    using Microsoft.SharePoint.Client;
     using System;
     using System.Data;
-    using Microsoft.SharePoint.Client;
+    using System.Security;
 
     class SharePointHelper
     {
@@ -13,7 +14,8 @@
             {
                 using (var clientContext = new ClientContext(siteUrl))
                 {
-                    clientContext.Credentials = Helper.GetNetworkCredential(userName, password);
+                    clientContext.Credentials = new SharePointOnlineCredentials(userName, ToSecureString(password));
+                    //clientContext.Credentials = Helper.GetNetworkCredential(userName, password);
                     var list = clientContext.Web.Lists.GetByTitle(listName);
                     var query = CamlQuery.CreateAllItemsQuery();
                     var listItems = list.GetItems(query);
@@ -50,6 +52,19 @@
                 throw new Exception("GetAllListItems failed:" + exception.Message, exception);
             }
             return dataTable;
+        }
+
+        private static SecureString ToSecureString(string plainString)
+        {
+            if (plainString == null)
+                return null;
+
+            SecureString secureString = new SecureString();
+            foreach (char c in plainString.ToCharArray())
+            {
+                secureString.AppendChar(c);
+            }
+            return secureString;
         }
     }
 }

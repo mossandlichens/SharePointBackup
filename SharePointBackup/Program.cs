@@ -3,11 +3,14 @@
     using System;
     using Fclp;
     using System.IO;
+    using NLog;
 
     class Program
-    {
+    {        
         static void Main(string[] args)
         {
+            Helper.Logger.Debug("SharePointBackup in action...");
+
             AppDomain.CurrentDomain.UnhandledException += UnhandledExceptionHandler;
 
             var parser = new FluentCommandLineParser<AppArgs>();
